@@ -1,0 +1,38 @@
+{
+  "name": "ubotjs",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "",
+  "main": "junn.js",
+  "scripts": {
+    "start": "node junn.js",
+    "dev": "nodemon junn.js"
+  },
+  "keywords": [
+    "Userbot",
+    "Userbot Nodejs"
+  ],
+  "author": "Junn Bukan Wibu",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "cli-table3": "^0.6.5",
+    "figlet": "^1.9.3",
+    "gradient-string": "^3.0.0",
+    "gtts": "^0.2.1",
+    "js-confuser": "^2.0.0",
+    "junofficial-userbot": "^1.0.0",
+    "telegraf": "^4.16.3",
+    "userbotjs-jun": "1.0.0"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "."
+    ],
+    "ext": "js",
+    "ignore": [
+      "*.json",
+      "**/*.json"
+    ]
+  }
+}
