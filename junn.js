@@ -180,7 +180,8 @@ async function createBot(token){
   fs.ensureDirSync(botLogFolder);
   const data = { id: botId, username: botUser, name: botName, token };
   fsRaw.writeFileSync(botJsonPath,JSON.stringify(data,null,2));
-  bot.use(async (ctx,next)=>{ try{ const from = ctx.from||{}; const text = ctx.message?.text || ctx.updateType || "[non-text]"; writeLogFiles(botUser,`Message from ${from.id||"?"} (${from.username||from.first_name||"?"}): ${String(text)}`); }catch{} return next(); });
+  bot.use(async (ctx,next)=>{ try{ const from = ctx.from||{}; const text = (ctx.message && ctx.message.text) ? ctx.message.text : "[non-text]";
+ writeLogFiles(botUser,`Message from ${from.id||"?"} (${from.username||from.first_name||"?"}): ${String(text)}`); }catch{} return next(); });
   const featureFile = path.join(__dirname,"Dokumentasi","Bot","JunOfficial.js");
   const feature = safeRequireFeature(featureFile);
   if(feature){ try{ feature(bot,{ id: botId, username: botUser, name: botName, ownerId: settings.ownerId }); }catch{} }
