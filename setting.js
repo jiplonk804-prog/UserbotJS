@@ -9,12 +9,12 @@ module.exports = {
 
 
 // ============= D A T A  M E N U =============
-  apiId: 9999,
-  apiHash: "YourApiHash",
-  ownername : "Jembot Alaska",
-  storename : "Poke Strore 🖕",
-  ownerId: 7868229705,
-  token : "YourToken",
+  apiId: 22984464,
+  apiHash: "fd52e69eabdb107f4f0954a8dd146412",
+  ownername : "KazukiBlast",
+  storename : "KazukiStore🌠",
+  ownerId: 8091720389,
+  token : "8074801400:AAGoII2CsowIeQURzAwjr-60A8CfRH-idJo",
   sessionName: "session.json",
   
 /*
@@ -33,7 +33,7 @@ Tutorial : Isi api hash & api id ambil nya di 𝗺𝘆.𝘁𝗲𝗹𝗲𝗴𝗿�
 
 // ============= G E M I N I  A P I =============
 
-API_KEY: "YourKeyGemini",
+API_KEY: "AIzaSyB47adRUMkO-Yn_MOcOZBDV0PFIpzqKBy4",
 
 API_URL: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
 
@@ -55,10 +55,10 @@ KAPAN KAPAN AJA DEH  HEHE 🗿👍
   
   
 // ============= P A Y M E N T  M E N U =============
-  qrs : "https://files.catbox.moe/zzx0s5.jpg",
-  dana : "0858*****57",
-  gopay : "085XXXXXXXXX",
-  ovo : "085XXXXXXXXX",
+  qrs : "https://files.catbox.moe/ee53r7.jpg",
+  dana : "087899922661",
+  gopay : "085725870494",
+  shope : "085725870494",
   
 /*
 NOTE : payment lu beb yakali ga tau / ga bisa isi aja apa yang ada di payment lu kalo di rasa ga punya gopay atau ovo misalnya isi text belum ada atau apalah jangan di isi nomor yang ga sesuai ntar salah tf 𝗻𝗮𝗻𝗴𝗶𝘀𝘀 🗿
