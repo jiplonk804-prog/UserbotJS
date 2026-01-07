@@ -71,8 +71,8 @@ NOTE : payment lu beb yakali ga tau / ga bisa isi aja apa yang ada di payment lu
   
 // ============= L O G I N  U S E R B O T =============
 
-  loginNum: "62xxxFakeNomor", // masukkan nomor login otomatis (contoh "628xxx")
-  A2f: "FakeA2f",      // masukkan kode 2FA jika ada
+  loginNum: "628979812785", // masukkan nomor login otomatis (contoh "628xxx")
+  A2f: "Kontol33",      // masukkan kode 2FA jika ada
   
 // NOTE : nomor login ke telegram wajib di isi biar gampang lu tinggal masukin otp ke panel atau termux lu paham? ga paham hapus aja sc nya ddekk
 
