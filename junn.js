@@ -336,7 +336,7 @@ case `${PrefixsCommand}menu`: {
 
   const text = `<blockquote>
 ╭────── 「 BOT INFO 」──────
-├ Nama Bot  : Userbot V1.0.0
+├ Nama Bot  : UserbotKazuki V1.0.0
 ├ Powered   : ${settings.ownername}
 ├ Owner     : ${settings.ownerId}
 ├ Prefix    : ( ${PrefixsCommand} )
